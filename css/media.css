@@ -49,6 +49,12 @@
     font-size: 30px;
     line-height: 41px;
   }
+  
+  .header-image img {
+  width: 315px;
+  height: auto;
+}
+  
   .project img {
     width: 315px;
     height: auto;
