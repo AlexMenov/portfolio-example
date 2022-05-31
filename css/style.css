@@ -3,23 +3,16 @@
   transform: rotate(360deg);
   position: relative;
   left: 0px;
-  animation: animation 10s infinite ease;
+  animation: animation 5s infinite ease;
 }
 
 @keyframes animation {
   0% {
     transform: rotate(0deg);
-    left: 0px;
   }
-  25% {
-        left: 500px;
-  }
-  75% {
-    left: -500px;
   }
   100% {
     transform: rotate(360deg);
-    left: 0px;
   }
 }
 
