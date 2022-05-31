@@ -109,6 +109,10 @@ body {
   line-height: 200%;
 }
 
+.header-image img {
+  border-radius: 25px;
+}
+
 .service-content h2 {
   font-weight: 600;
   font-size: 24px;
