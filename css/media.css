@@ -1,0 +1,76 @@
+@media screen and (max-width: 1230px) {
+  .nav-list {
+    display: none;
+  }
+  .nav-button {
+    display: block;
+    position: fixed;
+    right: 30px;
+    top: 46px;
+    z-index: 5;
+  }
+  .nav.open .nav-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 40px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    padding: 50px 30px;
+    background-color: azure;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+    color: #828282;
+    overflow: auto;
+  }
+  .nav-link.active {
+    color: #000000;
+  }
+  .header-content,
+  .service-content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-nav {
+    margin-bottom: 30px;
+  }
+
+  .header-heading {
+    font-size: 34px;
+    line-height: 51px;
+  }
+
+  .header-heading span {
+    font-size: 30px;
+    line-height: 41px;
+  }
+  .project img {
+    width: 315px;
+    height: auto;
+  }
+  .header-image img {
+    width: 296px;
+    height: auto;
+    margin-top: 30px;
+  }
+
+  .service-card {
+    width: 315px;
+    margin-top: 40px;
+  }
+  .service-card:first-child {
+    margin-top: 0px;
+  }
+  .portfolio-title h2 {
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .footer-social {
+    column-gap: 60px;
+  }
+}
