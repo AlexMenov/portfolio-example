@@ -111,6 +111,8 @@ body {
 
 .header-image img {
   border-radius: 25px;
+  width: 315px;
+  height: auto;
 }
 
 .service-content h2 {
