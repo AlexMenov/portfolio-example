@@ -11,7 +11,7 @@ document
   .addEventListener("click", () => {
     document.querySelectorAll(`.footer-social img`).forEach((element) => {
       element.classList.add("animate");
-      content.textContent = "Привет, Чел! Как дела?";
+      content.textContent = "You can send a message";
       content.classList.add("contentAnimation");
     });
   });
